@@ -1,0 +1,16 @@
+PODS:
+  - SKImageExtensionRaj (0.1.0)
+
+DEPENDENCIES:
+  - SKImageExtensionRaj (from `../`)
+
+EXTERNAL SOURCES:
+  SKImageExtensionRaj:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKImageExtensionRaj: 1530182a7b08c2dbee962732fcdf284ca045300c
+
+PODFILE CHECKSUM: 4bd4699349db2db89cb667ca727cdb52cfbce632
+
+COCOAPODS: 1.6.1

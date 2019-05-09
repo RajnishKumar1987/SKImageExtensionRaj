@@ -1,0 +1,6 @@
+framework module SKImageExtensionRaj {
+  umbrella header "SKImageExtensionRaj-umbrella.h"
+
+  export *
+  module * { export * }
+}
