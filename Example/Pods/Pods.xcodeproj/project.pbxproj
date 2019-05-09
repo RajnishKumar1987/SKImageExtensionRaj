@@ -10,9 +10,9 @@
 		02889CBE810EC859C9542A47F01C6C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		2066F7280A351F9E04A39D8893D13F36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		3895972109CC237510A243F1BD14803C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		4797D42D3B68D390D858ACC67AF74B4B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B77D3CC6B2255A4DD5B1685A2C273FC /* ReplaceMe.swift */; };
 		48C8C4BE1EE22EA85AFF1001DEAEC900 /* Pods-SKImageExtensionRaj_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26619E5AA030F87460F845BD51076BE8 /* Pods-SKImageExtensionRaj_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BE1534C555F86DE7D511EF612EB8C2C /* SKImageExtensionRaj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539A99B768FD81E59B75928E6F4388A /* SKImageExtensionRaj-dummy.m */; };
+		84CE0E70228440D300028A24 /* SKImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE0E6F228440D300028A24 /* SKImageExtension.swift */; };
 		C0892BCA5593EFFBD30F4A4EFDDA8D2D /* Pods-SKImageExtensionRaj_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF564026C3AAD553C235ED7BEFC6646 /* Pods-SKImageExtensionRaj_Example-dummy.m */; };
 		E22BDCBCC0872676F447A10D3A1DF24C /* Pods-SKImageExtensionRaj_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC665DC497352539156ECEA9386FBBD /* Pods-SKImageExtensionRaj_Tests-dummy.m */; };
 		E4E998BB32E84336BCFD2337DBB558B9 /* Pods-SKImageExtensionRaj_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA49758A5506146CA7A20EEF12DE19E /* Pods-SKImageExtensionRaj_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,25 +40,25 @@
 		0D20DEBB9E38875CC40599AD0112E3C1 /* Pods-SKImageExtensionRaj_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKImageExtensionRaj_Example.modulemap"; sourceTree = "<group>"; };
 		0D91FB988B1FF5AFFBDDC181BE0F6245 /* Pods-SKImageExtensionRaj_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKImageExtensionRaj_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EF564026C3AAD553C235ED7BEFC6646 /* Pods-SKImageExtensionRaj_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKImageExtensionRaj_Example-dummy.m"; sourceTree = "<group>"; };
-		166CF7E83F98CEE4872CC0E88657D798 /* Pods_SKImageExtensionRaj_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKImageExtensionRaj_Tests.framework; path = "Pods-SKImageExtensionRaj_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166CF7E83F98CEE4872CC0E88657D798 /* Pods_SKImageExtensionRaj_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKImageExtensionRaj_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A10CCB078BEDB72D06C1F1A5152D74 /* Pods-SKImageExtensionRaj_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKImageExtensionRaj_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1EC665DC497352539156ECEA9386FBBD /* Pods-SKImageExtensionRaj_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKImageExtensionRaj_Tests-dummy.m"; sourceTree = "<group>"; };
-		215FB623C6466998AB4AA676EE84FC05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		215FB623C6466998AB4AA676EE84FC05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		25B324B3049D67A079B00B1E05AA5A2E /* Pods-SKImageExtensionRaj_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKImageExtensionRaj_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26619E5AA030F87460F845BD51076BE8 /* Pods-SKImageExtensionRaj_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKImageExtensionRaj_Tests-umbrella.h"; sourceTree = "<group>"; };
-		304503A97E27EE815969044317917E7B /* Pods_SKImageExtensionRaj_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKImageExtensionRaj_Example.framework; path = "Pods-SKImageExtensionRaj_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		304503A97E27EE815969044317917E7B /* Pods_SKImageExtensionRaj_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKImageExtensionRaj_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44371B4A1D2456CF36600EFA909C7153 /* SKImageExtensionRaj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKImageExtensionRaj-umbrella.h"; sourceTree = "<group>"; };
 		50209A5B154F4FEBBC4C75D466822056 /* Pods-SKImageExtensionRaj_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKImageExtensionRaj_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		587FE1B240EF60611F68FD4D6DFC1F23 /* Pods-SKImageExtensionRaj_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKImageExtensionRaj_Tests.modulemap"; sourceTree = "<group>"; };
-		5B77D3CC6B2255A4DD5B1685A2C273FC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SKImageExtensionRaj/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6539A99B768FD81E59B75928E6F4388A /* SKImageExtensionRaj-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKImageExtensionRaj-dummy.m"; sourceTree = "<group>"; };
-		8DA84AA81D91BA34220E5AABE0A763B4 /* SKImageExtensionRaj.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKImageExtensionRaj.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8DED506FE50D223E96BA219E82138342 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		84CE0E6F228440D300028A24 /* SKImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SKImageExtension.swift; path = SKImageExtensionRaj/Classes/SKImageExtension.swift; sourceTree = "<group>"; };
+		8DA84AA81D91BA34220E5AABE0A763B4 /* SKImageExtensionRaj.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SKImageExtensionRaj.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8DED506FE50D223E96BA219E82138342 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		97BE420713945BA43C6B57A532551831 /* Pods-SKImageExtensionRaj_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKImageExtensionRaj_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		99130807975291F02AA5862C269B9280 /* SKImageExtensionRaj-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKImageExtensionRaj-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A593EE3C33A0EECCC84A63E12CF92BC3 /* Pods-SKImageExtensionRaj_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKImageExtensionRaj_Tests-Info.plist"; sourceTree = "<group>"; };
-		A68FBB8D8EE3E37D71FD8E35F9887C8F /* SKImageExtensionRaj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKImageExtensionRaj.framework; path = SKImageExtensionRaj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68FBB8D8EE3E37D71FD8E35F9887C8F /* SKImageExtensionRaj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKImageExtensionRaj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3E4A66CE8A81A21F7103557906B86F /* Pods-SKImageExtensionRaj_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKImageExtensionRaj_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA4DEBA770AAB0A679E0B8BBF859404D /* SKImageExtensionRaj-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKImageExtensionRaj-prefix.pch"; sourceTree = "<group>"; };
 		C7CC82839245F13B55A2621998A88AC8 /* SKImageExtensionRaj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKImageExtensionRaj.modulemap; sourceTree = "<group>"; };
@@ -121,9 +121,9 @@
 		46A118B2C6EEB6E4475A26CE6BE3A904 /* SKImageExtensionRaj */ = {
 			isa = PBXGroup;
 			children = (
-				5B77D3CC6B2255A4DD5B1685A2C273FC /* ReplaceMe.swift */,
 				047AFF1CC897B06D865B12CF0B6D7D31 /* Pod */,
 				7D73F0A8C3885DDB89A949910C3651CB /* Support Files */,
+				84CE0E6F228440D300028A24 /* SKImageExtension.swift */,
 			);
 			name = SKImageExtensionRaj;
 			path = ../..;
@@ -315,6 +315,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D7CE98AEE932F6527B280EEE024AA6AC = {
+						LastSwiftMigration = 1010;
+					};
+					ED646BB1652F7BACAF4034E1DEF30EF1 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,8 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4797D42D3B68D390D858ACC67AF74B4B /* ReplaceMe.swift in Sources */,
 				6BE1534C555F86DE7D511EF612EB8C2C /* SKImageExtensionRaj-dummy.m in Sources */,
+				84CE0E70228440D300028A24 /* SKImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E09713FA4CC0837F7B7497758FFF7FC1 /* SKImageExtensionRaj.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,6 +436,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -439,6 +449,7 @@
 			baseConfigurationReference = E4AF62E16640A7891833701019B516A5 /* Pods-SKImageExtensionRaj_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,6 +472,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -473,6 +485,7 @@
 			baseConfigurationReference = AC3E4A66CE8A81A21F7103557906B86F /* Pods-SKImageExtensionRaj_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -495,6 +508,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -505,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E09713FA4CC0837F7B7497758FFF7FC1 /* SKImageExtensionRaj.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,8 +733,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

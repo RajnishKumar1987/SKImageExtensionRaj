@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D4DD80B327F95EF55ED1F50 /* Pods-SKImageExtensionRaj_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKImageExtensionRaj_Example.debug.xcconfig"; path = "Target Support Files/Pods-SKImageExtensionRaj_Example/Pods-SKImageExtensionRaj_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		85A148BAEDB2B3E30652F643 /* SKImageExtensionRaj.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKImageExtensionRaj.podspec; path = ../SKImageExtensionRaj.podspec; sourceTree = "<group>"; };
+		85A148BAEDB2B3E30652F643 /* SKImageExtensionRaj.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKImageExtensionRaj.podspec; path = ../SKImageExtensionRaj.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96BDEA066F3119AB0956E3EE /* Pods_SKImageExtensionRaj_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKImageExtensionRaj_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC87A4348F6E8AC9DE8E4C /* Pods-SKImageExtensionRaj_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKImageExtensionRaj_Example.release.xcconfig"; path = "Target Support Files/Pods-SKImageExtensionRaj_Example/Pods-SKImageExtensionRaj_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A31FF2C85E35A468FB4BDB09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A957CE74540646C29FCFA909 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A31FF2C85E35A468FB4BDB09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A957CE74540646C29FCFA909 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				1146AA93FC2595777CA7097D /* Pods-SKImageExtensionRaj_Tests.debug.xcconfig */,
 				1454E26C615B9EE8377673DC /* Pods-SKImageExtensionRaj_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
