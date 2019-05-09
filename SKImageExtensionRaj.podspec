@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKImageExtensionRaj'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'This is for test purpose only kjewqe lkjsd kjweh'
 
 # This description is used to generate tags and improve search results.
