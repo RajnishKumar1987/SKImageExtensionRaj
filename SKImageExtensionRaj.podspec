@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKImageExtensionRaj'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'This is for test purpose only kjewqe lkjsd kjweh'
 
 # This description is used to generate tags and improve search results.
@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/RajnishKumar1987/SKImageExtensionRaj.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-  swift_version = '4.2'
+  s.ios.deployment_target = '10.2'
+  s.swift_version = '4.0'
   s.source_files = 'SKImageExtensionRaj/Classes/**/*'
   
   # s.resource_bundles = {
