@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.2'
-  s.swift_version = '4.0'
-  s.source_files = 'SKImageExtensionRaj/Classes/**/*'
+s.swift_versions = ['4.2', '5.0']
+s.source_files = 'SKImageExtensionRaj/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SKImageExtensionRaj' => ['SKImageExtensionRaj/Assets/*.png']
